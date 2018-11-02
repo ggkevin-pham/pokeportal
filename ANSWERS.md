@@ -11,9 +11,12 @@ The line shows a button on the home page to capture a wild Pokemon. capture_path
 I don't like naming my Pokemon, because I like staying true to the Pokemon's original name. However, if I did choose to name my Pokemon, they would be named after soccer players because I like watching soccer.
 
 # Question 4: What did you pass into the redirect_to? If it is a path, what did that path need? If it is not a path, why is it okay not to have a path here?
+I passed in 'trainer_path(@pokemon.trainer_id'. It's a path, needing the id of the trainer I want to viit. To get it, I got the trainer_id of the Pokemon I am damaging.
 
 # Question 5: Explain how putting this line "flash[:error] = @pokemon.errors.full_messages.to_sentence" shows error messages on your form.
+Pass in the error of the validation, and views/layouts/application.html.erb has a method to render text for that specific error.
 
 # Give us feedback on the project and decal below!
+It was really hard, because as a freshman with no CS experience, I was lost and so Slack was a lifesaver. I noted that I really did turn this project in really late *notlikethis* but it was cool to build something like this!
 
 # Extra credit: Link your Heroku deployed app
