@@ -16,6 +16,8 @@ I passed in 'trainer_path(@pokemon.trainer_id'. It's a path, needing the id of t
 # Question 5: Explain how putting this line "flash[:error] = @pokemon.errors.full_messages.to_sentence" shows error messages on your form.
 Pass in the error of the validation, and views/layouts/application.html.erb has a method to render text for that specific error.
 
+https://github.com/ggkevin-pham/proj1
+
 # Give us feedback on the project and decal below!
 It was really hard, because as a freshman with no CS experience, I was lost and so Slack was a lifesaver. I noted that I really did turn this project in really late *notlikethis* but it was cool to build something like this!
 
